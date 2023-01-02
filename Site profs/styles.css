@@ -184,3 +184,15 @@ ul {
     color: white;
     transform: rotateY(180deg);
 }
+
+.content-card img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.flip-card-front h2, .flip-card-front p {
+    color: white;
+    z-index: 1;
+    position: relative;
+}
